@@ -1,0 +1,29 @@
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --Light-grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+    --Orange: hsl(25, 97%, 53%);
+    --cordaestrela: hsl(210, 19%, 24%);
+
+  }
+
+.botao_menor{
+    padding: 20px;
+    background-color: var(--cordaestrela);
+    border-radius: 100%;
+    border: none;
+    margin:0px 10px 10px 0px;
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+}
+
+.botao_menor:hover{
+    background-color: var(--Orange);
+    transition: 0.3s;
+    cursor: pointer;
+
+}

@@ -1,0 +1,13 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --Light-grey: hsl(217, 12%, 63%);
+  --Medium-Grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+
+}
+
+body{
+  background-color: var(--very-dark-blue);
+}
+
